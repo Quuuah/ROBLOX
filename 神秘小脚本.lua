@@ -103,7 +103,7 @@ local function CreateGUI(title)
 
     agreeFrame.Parent = frame
 
-    local agreeCorner = Instance.new("UICorner")
+    local agreeCorner = Instance.new("Corner")
     agreeCorner.CornerRadius = UDim.new(0, 10)
     agreeCorner.Parent = agreeButton
     local minimizeButton = Instance.new("TextButton")
